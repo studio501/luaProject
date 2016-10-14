@@ -4,7 +4,7 @@
 -- 功能描叙: 有限状态机状态类
 ------------------------------------------------------------------
 
-local superClass = base.GameObj
+local superClass = base.Object
 base.State = base.class("base.State", superClass)
 local State = base.State
 

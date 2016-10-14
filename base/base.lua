@@ -24,12 +24,12 @@ function base.class(strClassName, clsSuper)
     return cls
 end
 
-require "base/Object.lua"
-require "base/GameObj.lua"
-require "base/ObjectPool.lua"
-require "base/Singleton.lua"
-require "base/State.lua"
-require "base/StateMachine.lua"
+require "base/Object"
+-- require "base/GameObj.lua"
+-- require "base/ObjectPool.lua"
+-- require "base/Singleton.lua"
+require "base/State"
+-- require "base/StateMachine.lua"
 
 function base.init()
 
